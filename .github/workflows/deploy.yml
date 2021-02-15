@@ -34,5 +34,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo ${{ secrets.TEST }}
+          ${{ secrets.TEST }} > test.txt
           echo last line
