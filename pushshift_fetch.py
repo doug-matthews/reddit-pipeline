@@ -59,7 +59,7 @@ def handler(event, context):
     
     data = get_data(stock, start_date)
     
-    save_data(data, stock)
+    #save_data(data, stock)
     
     last_date = get_last_date(data)
     length = get_data_length(data)
